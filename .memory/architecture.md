@@ -108,7 +108,9 @@ tests/
 ## Assumptions
 
 <!-- assumption-list:start -->
-- [ASSUME-0001: In-Memory Repository Implementation as Interim Storage](assumptions/ASSUME-0001-in-memory-storage-interim.md)
+- [ASSUME-0001](assumptions/ASSUME-0001-in-memory-storage-interim.md): In-Memory Repository Implementation as Interim Storage (unresolved)
+- [ASSUME-0002](assumptions/ASSUME-0002-hello-world-connectivity-verification.md): Hello World Endpoint Serves as Baseline Connectivity Probe (unresolved)
+- [ASSUME-0003](assumptions/ASSUME-0003-hello-world-stateless-unauthenticated.md): Hello World Endpoint Operates Without External Persistence or Authentication (unresolved)
 <!-- assumption-list:end -->
 
 The save_adr and save_assumption tools fill these lists. Do not edit between the markers.

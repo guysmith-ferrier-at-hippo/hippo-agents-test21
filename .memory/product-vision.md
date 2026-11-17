@@ -110,3 +110,27 @@ Different client applications across the organization currently implement custom
 - [Design Guidelines](design-guidelines.md)
 - [Test Strategy](testing.md)
 - [Structured Specification Conventions](specification-conventions.md)
+
+---
+
+## 13. Value Rule Set
+
+### Organizational Value Definition
+
+The Customer Greeting Service delivers organizational value through three primary drivers:
+- **Integration Velocity**: Consuming teams integrate greeting endpoints quickly without custom logic.
+- **Maintenance Reduction**: Centralized greeting calculation eliminates duplicate code across client applications.
+- **Architectural Integrity**: Decoupled layers and strict interface encapsulation prevent technical debt.
+
+### Value Evaluation Rules
+
+The organization evaluates candidate features against the criteria in the table below. Every feature must satisfy the minimum threshold for all rules to proceed to development.
+
+| Rule / Criterion | Description | Minimum Threshold for Go |
+|---|---|---|
+| Strategic Alignment | Alignment with centralized customer greeting and platform branding goals | Direct alignment with at least one product goal |
+| Integration Velocity | Reduction of integration friction and implementation effort for client teams | Consuming teams can test and integrate within one business day |
+| Maintenance Reduction | Elimination of duplicate client algorithms and maintenance overhead | Applicable to one or more consuming client applications |
+| Architectural Compliance | Adherence to 3-tier layered architecture and interface encapsulation | Zero direct coupling across non-adjacent layers |
+| Verification Feasibility | Compatibility with automated MSTest suites and OpenAPI test harness | 100% testable without durable database dependencies |
+

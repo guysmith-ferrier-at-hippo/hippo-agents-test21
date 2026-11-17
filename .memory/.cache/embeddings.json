@@ -2,8 +2,8 @@
   "version": 1,
   "entries": {
     ".memory/architecture.md": {
-      "sha256": "16c722c9051bce40f439c424a167cd679eb4b6524109cfd38083aea2a893bcbc",
-      "mtime": 1794921119.15406,
+      "sha256": "eb87629879f0e3e4fdd507d572e13d63aec3943f7ad1074386b688ba325fabb3",
+      "mtime": 1794926027.0602353,
       "vector": [
         -0.0013566543348133564,
         0.08787717670202255,
@@ -2802,8 +2802,8 @@
       "content_snippet": "The Customer Greeting Service is a headless REST API with no custom end-user graphic interface. Developers, testers, and integration partners require a clear, discoverable method to inspect API schema contracts and test endpoint execution interactively. 1. **Interactive OpenAPI (Swagger UI)**: Integ"
     },
     ".memory/design-guidelines.md": {
-      "sha256": "313c05f05eab103fd95a3d6c86bbf11fa65824b8736b6fb094b54e2620905c5c",
-      "mtime": 1794921140.5930674,
+      "sha256": "74461e04d44b99adf86b9f412f83550888e3a261286d7b45b0f8c93080d5c468",
+      "mtime": 1794926006.4019105,
       "vector": [
         -0.13931211829185486,
         0.14553521573543549,
@@ -3198,8 +3198,8 @@
       "content_snippet": "The Customer Greeting Service operates as a headless REST API. The design principles focus on clarity, predictability, and professional communication: - **Predictable and Intuitive**: Endpoint routes, query parameters, and JSON response bodies adhere strictly to REST conventions. - **Self-Documentin"
     },
     ".memory/knowledge/KB-0001-layer-interface-decoupling.md": {
-      "sha256": "4b0a2b6920c38e264e0d7a37ccce5fa234bc586a4d41c0a8f2486514bd6f920a",
-      "mtime": 1794921100.6860316,
+      "sha256": "d573269e6f026082af4ff3c5214fb4c1e8ea09cf90dfc10dcd517411363717fa",
+      "mtime": 1794926000.0768218,
       "vector": [
         -0.15866217017173767,
         0.04754124954342842,
@@ -4391,8 +4391,8 @@
       "content_snippet": "These conventions define the workflow and artifact structure for planning and implementing features or bug fixes within this repository. All specification artifacts for a given feature or bug fix must be contained within a dedicated directory: `.memory/specs/{feature-name}/` where `{feature-name}` i"
     },
     ".memory/testing.md": {
-      "sha256": "4b4e768762933cfb93c79f539a7aa1cb507b6880ad313629274dd551f588d0bf",
-      "mtime": 1794921159.4514306,
+      "sha256": "ce180ec8fd704fe90adcf7c2e923b158f00da7c6b1e56b601f1bdb5b155ba2d1",
+      "mtime": 1794926013.4424918,
       "vector": [
         -0.12473313510417938,
         0.030730614438652992,

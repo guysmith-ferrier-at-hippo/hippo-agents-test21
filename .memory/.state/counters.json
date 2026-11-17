@@ -1,6 +1,6 @@
 {
-  "ASSUME": 1,
+  "ASSUME": 3,
   "ADR": 4,
-  "KNOWLEDGE": 1,
+  "KNOWLEDGE": 2,
   "DD": 1
 }
