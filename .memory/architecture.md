@@ -68,13 +68,12 @@ The application adheres to a strict 3-tier layered architecture where each layer
 ```text
 src/
   CustomerGreetingService.Api/                     # Controllers, Program.cs, OpenAPI configuration
-  CustomerGreetingService.BusinessLogic/           # Business logic interfaces, service implementations, DTOs
+  CustomerGreetingService.BusinessLogic/           # Business logic interfaces, implementations in project root, DTOs
   CustomerGreetingService.Repositories/            # Repository interfaces, in-memory repository implementations, entities
 tests/
-  CustomerGreetingService.Api.UnitTests/           # MSTest suites with Moq for API controllers
+  CustomerGreetingService.Api.UnitTests/           # MSTest suites with Moq and WebApplicationFactory endpoint tests
   CustomerGreetingService.BusinessLogic.UnitTests/ # MSTest suites with Moq for business logic rules
   CustomerGreetingService.Repositories.UnitTests/  # MSTest suites for in-memory repository implementations
-  CustomerGreetingService.ApiTests/                # Integration / WebApplicationFactory tests
 ```
 
 ## Data Flow
@@ -109,10 +108,10 @@ tests/
 ## Assumptions
 
 <!-- assumption-list:start -->
-- [ASSUME-0001](assumptions/ASSUME-0001-in-memory-storage-interim.md): In-Memory Repository Implementation as Interim Storage (unresolved)
+- [ASSUME-0001](assumptions/ASSUME-0001-in-memory-storage-interim.md): In-Memory Repository Implementation as Interim Storage (validated)
 - [ASSUME-0002](assumptions/ASSUME-0002-hello-world-connectivity-verification.md): Hello World Endpoint Serves as Baseline Connectivity Probe (unresolved)
-- [ASSUME-0003](assumptions/ASSUME-0003-hello-world-stateless-unauthenticated.md): Hello World Endpoint Operates Without External Persistence or Authentication (unresolved)
-- [ASSUME-0004](assumptions/ASSUME-0004-name-validation-control-characters.md): Unicode Recipient Names and ASCII Control Character Validation (unresolved)
+- [ASSUME-0003](assumptions/ASSUME-0003-hello-world-stateless-unauthenticated.md): Hello World Endpoint Operates Without External Persistence or Authentication (validated)
+- [ASSUME-0004](assumptions/ASSUME-0004-name-validation-control-characters.md): Unicode Recipient Names and ASCII Control Character Validation (validated)
 <!-- assumption-list:end -->
 
 The save_adr and save_assumption tools fill these lists. Do not edit between the markers.

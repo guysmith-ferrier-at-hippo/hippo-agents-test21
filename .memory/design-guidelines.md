@@ -56,6 +56,7 @@ Because the service provides no custom graphical user interface, visual constrai
   - Sentence case for field descriptions and parameter annotations.
   - JSON property names formatted strictly in `camelCase`.
   - Endpoint URIs formatted strictly in lowercase kebab-case (e.g., `/api/v1/customer-greetings`).
+  - Response models named using the method name plus the suffix `Response` (e.g., `GetHelloWorldGreetingResponse`).
 
 ## Accessibility (a11y)
 

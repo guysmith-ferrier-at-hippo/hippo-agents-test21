@@ -35,16 +35,16 @@
 
 ## 6. Required Remediation
 ### A. Architecture
-* [ ] **Enforce Parameter Boundaries:** Validate that query parameter strings do not exceed 50 characters before business logic processing. (*Rationale:* Secure Defaults and Input Minimization)
+* [x] **Enforce Parameter Boundaries:** Validate that query parameter strings do not exceed 50 characters before business logic processing. (*Rationale:* Secure Defaults and Input Minimization)
 
 ### B. Requirements
-* [ ] **Reject Control Characters:** Scan the name parameter for ASCII control characters and return HTTP 400 Bad Request if detected. (*Rationale:* Defense in Depth)
+* [x] **Reject Control Characters:** Scan the name parameter for ASCII control characters and return HTTP 400 Bad Request if detected. (*Rationale:* Defense in Depth)
 
 ### C. Anti-Patterns
-* [ ] **Restrict Non-GET Methods:** Configure routing to reject non-GET requests with HTTP 405 Method Not Allowed. (*Rationale:* Principle of Least Privilege)
+* [x] **Restrict Non-GET Methods:** Configure routing to reject non-GET requests with HTTP 405 Method Not Allowed. (*Rationale:* Principle of Least Privilege)
 
 ## 7. Remediation Tasks
 - [ ] [Security] [Global] Enforce TLS 1.3 on all ingress connections
-- [ ] [Security] [FEAT-0001-02] Reject recipient name query parameter exceeding 50 characters with HTTP 400
-- [ ] [Security] [FEAT-0001-02] Reject recipient name query parameter containing ASCII control characters with HTTP 400
-- [ ] [Security] [FEAT-0001-01] Return HTTP 405 Method Not Allowed for non-GET requests
+- [x] [Security] [FEAT-0001-02] Reject recipient name query parameter exceeding 50 characters with HTTP 400
+- [x] [Security] [FEAT-0001-02] Reject recipient name query parameter containing ASCII control characters with HTTP 400
+- [x] [Security] [FEAT-0001-01] Return HTTP 405 Method Not Allowed for non-GET requests

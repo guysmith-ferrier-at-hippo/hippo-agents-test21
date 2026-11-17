@@ -1,7 +1,7 @@
 ---
 id: FEAT-0001-02
 title: "Parameterized Hello World Greeting Specification"
-status: Draft
+status: Implemented
 created: '2026-03-24'
 depends-on:
   - "specs/hello-world/feature.md"

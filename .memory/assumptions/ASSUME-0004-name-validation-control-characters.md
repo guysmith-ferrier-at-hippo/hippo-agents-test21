@@ -8,7 +8,7 @@ tags:
 - control-characters
 - hello-world
 - unicode
-status: unresolved
+status: validated
 created: '2026-03-24'
 updated: '2026-03-24'
 depends_on:
@@ -27,4 +27,4 @@ The parameterized greeting specification mandates rejection of unescaped control
 
 ## Resolution
 
-Verify with product owners and security architects during API contract review. Confirm that international character sets function properly in integration test suites.
+Validated. Automated unit tests and endpoint tests confirmed that the service accepts valid Unicode recipient names. The service rejects inputs exceeding 50 characters or containing ASCII control characters with HTTP 400 Problem Details.
