@@ -103,6 +103,7 @@ tests/
 | [ADR-0002](decisions/ADR-0002-in-memory-repository-pattern.md) | In-Memory Repository Pattern for Interim Data Access | accepted | 2026-03-24 |
 | [ADR-0003](decisions/ADR-0003-aks-hosting-azure-devops.md) | Hosting on Azure Kubernetes Service (AKS) Deployed via Azure DevOps Pipelines | accepted | 2026-03-24 |
 | [ADR-0004](decisions/ADR-0004-mstest-moq-testing.md) | Standardization on MSTest and Moq Without Fluent Assertion APIs | accepted | 2026-03-24 |
+| [ADR-0005](decisions/ADR-0005-time-provider-abstraction.md) | Adoption of TimeProvider for Temporal Operations | accepted | 2026-03-24 |
 <!-- adr-table:end -->
 
 ## Assumptions
@@ -111,6 +112,7 @@ tests/
 - [ASSUME-0001](assumptions/ASSUME-0001-in-memory-storage-interim.md): In-Memory Repository Implementation as Interim Storage (unresolved)
 - [ASSUME-0002](assumptions/ASSUME-0002-hello-world-connectivity-verification.md): Hello World Endpoint Serves as Baseline Connectivity Probe (unresolved)
 - [ASSUME-0003](assumptions/ASSUME-0003-hello-world-stateless-unauthenticated.md): Hello World Endpoint Operates Without External Persistence or Authentication (unresolved)
+- [ASSUME-0004](assumptions/ASSUME-0004-name-validation-control-characters.md): Unicode Recipient Names and ASCII Control Character Validation (unresolved)
 <!-- assumption-list:end -->
 
 The save_adr and save_assumption tools fill these lists. Do not edit between the markers.

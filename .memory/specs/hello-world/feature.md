@@ -14,6 +14,7 @@ supported-by:
   - "specs/hello-world/default-greeting-spec.md"
   - "specs/hello-world/parameterized-greeting-spec.md"
   - "specs/hello-world/value-assessment.md"
+  - "specs/hello-world/proposal.md"
 ---
 
 # Feature Specification: Hello World Greeting Endpoint
